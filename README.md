@@ -7,8 +7,7 @@ Interactive Power BI dashboard reconstructing and independently auditing Infosys
 GitHub does not render `.pbix` files inline — it's a proprietary binary format. To actually **view and interact** with the dashboard, you need one of:
 
 1. **Power BI Desktop** (free) — download the `.pbix` from this repo and open it locally.
-2. **Power BI Service** — if this report has been published, the live link is: `<paste your Power BI Service share link here>`
-3. **Static preview** — see `screenshots/` folder in this repo for exported images of each tab, or `dashboard-preview.pdf` for a full-page export (File → Export → Export to PDF in Power BI Desktop).
+2. **Static preview** — see `screenshots/` folder in this repo for exported images of each tab, or `dashboard-preview.pdf` for a full-page export (File → Export → Export to PDF in Power BI Desktop).
 
 ## What's in this repo
 
@@ -17,7 +16,7 @@ GitHub does not render `.pbix` files inline — it's a proprietary binary format
 | `Infosys_GHG_Dashboard.pbix` | The Power BI report file. Open in Power BI Desktop. |
 | `Infosys_GHG_PowerBI_Source.xlsx` | Underlying data tables (GHG_Trend, Scope3_Categories, Scope1_Refrigerants, Scope2_Reconciliation) — edit these and refresh in Power BI to update the dashboard. |
 | `screenshots/` | PNG exports of each dashboard tab (Overview, Scope 1, Scope 2, Scope 3, Audit Findings), for anyone browsing on GitHub without Power BI installed. |
-| `BUILD_GUIDE.md` | Step-by-step notes on how this dashboard was built (measures, visuals, theme, bookmark navigation), in case you want to rebuild or extend it. |
+
 
 ## Data source & methodology
 
